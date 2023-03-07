@@ -12,7 +12,7 @@
  Além disso, teremos a oportunidade de aprender sobre ferramentas que podem nos ajudar a otimizar o site, incluindo o controle de versão de código com o uso de GIT e GitHub.
  Também receberemos conhecimentos introdutórios sobre Javascript para aplicar em nosso projeto final, e teremos a oportunidade de conhecer o contexto do mercado de programação e as habilidades necessárias para entrar nesse mercado.</p>
 
-<h3>Protótipo</h3>
+<h3 align="center">Protótipo</h3>
 
 <img src="https://user-images.githubusercontent.com/115597015/223466213-26cd8ccd-8194-42eb-8725-b915de43ee69.png"  />
 <img src="https://user-images.githubusercontent.com/115597015/223466339-e595604f-ec46-454b-96a4-1dac457ef340.png"  />
