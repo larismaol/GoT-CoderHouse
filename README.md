@@ -1,6 +1,6 @@
 <h3 align="center"> Desenvolvimento Web - CoderHouse (2023)</h3>
 
-<p align="center">Intregrantes: <a href="https://github.com/joaopedrogf">João Pedro Gonçalves </a> - Jose Henrique - <a href="https://github.com/larismaol">Larissa Marini</a> - <a href="https://github.com/Dylucas07">Lucas Oliveira</a> - <a href="https://github.com/marcosmeneses24">Marcos Meneses</a> - <a href="https://github.com/RaissaBarata">Raissa Barata</a>
+<p align="center">Intregrantes: <a href="https://github.com/joaopedrogf">João Pedro Gonçalves</a> - <a href="https://github.com/jhenrique89">Jose Henrique</a> - <a href="https://github.com/larismaol">Larissa Marini</a> - <a href="https://github.com/Dylucas07">Lucas Oliveira</a> - <a href="https://github.com/marcosmeneses24">Marcos Meneses</a> - <a href="https://github.com/RaissaBarata">Raissa Barata</a>
 
 <h2 align="center">Projeto Final - Landing Page - Game of Thrones</h2> 
 
