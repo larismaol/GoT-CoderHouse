@@ -1,0 +1,338 @@
+body{
+    background-color: #18191B;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.logo{
+    width: 150px;
+}
+
+header {
+    background-image: url(Imagens/Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 215vh;
+    height:70vw;
+    color: #FFFFFF;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+
+nav ul {
+    margin: 0;
+    margin-right: 50px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+  
+nav li {
+    margin-right: 20px;
+}
+  
+nav a {
+    color: #bdbdbd;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    background-color: transparent;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    color: #bdbdbd;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 55%;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 20px;
+    color: #bdbdbd;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: ease-in-out 1s;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .show {
+    display: block;
+  }
+
+.trailer{
+    display: flex;
+    justify-content: center;
+    margin: 20px 150px;
+    padding: 20px;
+    border-top: 3px solid #AA0000;
+}
+
+.sobre__titulo{
+   border-bottom: 3px solid  #AA0000;
+   font-size: 50px; 
+   font-family: 'MedievalSharp', cursive;
+   text-align: center;
+   margin: 50px 150px;
+   padding: 30px;
+   color: #FFFFFF;
+}
+
+.sobre__paragrafo{
+    color: #FFFFFF;
+    font-size: 28px;
+    text-align: center;
+    margin: 60px 200px;
+    line-height: 50px;
+}
+
+.casas__titulo{
+    border-bottom: 3px solid  #AA0000;
+    font-size: 50px; 
+    font-family: 'MedievalSharp', cursive;
+    text-align: center;
+    margin: 50px 150px;
+    padding: 30px;
+    color: #FFFFFF;
+
+}
+
+.stark{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px 200px;
+}
+
+.stark__titulo{
+   margin: 50px 150px;
+   text-align: center;
+   font-size: 40px;
+   font-family: 'MedievalSharp', cursive;
+   border-bottom: 1px solid #FFFFFF;
+   color: #FFFFFF;
+}
+
+.stark__paragrafo{
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 30px;
+    font-size: 28px;
+
+}
+
+.stark__descricao{
+    align-items: center;
+    width: 50%;
+}
+
+.stark__imagem{
+    width: 500px;
+}
+
+.lannister{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px 200px;
+}
+
+.lannister__titulo{
+    margin: 50px 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'MedievalSharp', cursive;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.lannister__paragrafo{
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.lannister__descricao{
+    align-items: center;
+    width: 50%;
+}
+
+.baratheon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px 200px;
+}
+
+.baratheon__titulo{
+   margin: 50px 150px;
+   text-align: center;
+   font-size: 40px;
+   font-family: 'MedievalSharp', cursive;
+   border-bottom: 1px solid #FFFFFF;
+   color: #FFFFFF;
+}
+
+.baratheon__paragrafo{
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 30px;
+    font-size: 28px;
+
+}
+
+.baratheon__descricao{
+    align-items: center;
+    width: 50%;
+}
+
+.targaryen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px 150px;
+}
+
+.targaryen__titulo{
+    margin: 50px 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'MedievalSharp', cursive;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.targaryen__paragrafo{
+    text-align: center; 
+    color: #FFFFFF;
+    line-height: 30px;
+    font-size: 28px;
+}
+
+.targaryen__descricao{
+    align-items: center;
+    width: 50%;
+    
+}
+
+.personagens__fotos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.personagens__titulo{
+    border-bottom: 3px solid  #AA0000;
+    font-size: 50px; 
+    font-family: 'MedievalSharp', cursive;
+    text-align: center;
+    margin: 50px 150px;
+    padding: 30px;
+    color: #FFFFFF;
+}
+
+.galeria {
+    border-bottom: 3px solid  #AA0000;
+    font-size: 50px; 
+    font-family: 'MedievalSharp', cursive;
+    text-align: center;
+    margin: 50px 150px;
+    padding: 30px;
+    color: #FFFFFF;
+}
+
+
+.carousel {
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .slide {
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+
+  .informacoes {
+    display: none;
+    color:white;
+    font-family: 'MedievalSharp', cursive;
+    margin-top: 40px;
+    margin-bottom:20px;
+    margin-left: 40%;
+    margin-right: 50%;
+    width: 15%;
+    font-size: 25px;
+    text-align:center;
+    
+}
+
+.informacoes:hover {
+    transform: translateX(-50%);
+}
+
+    
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #FFFFFF;
+    padding: 100px;
+    margin-top: 50px;
+}
+
+.footer__nomes{
+    font-size: 10px;
+    margin: 20px;
+}
+
+.newsletter{
+    width: 20%;
+    height: 10%;
+    display: flex;
+    font-size: 10px;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+    letter-spacing: 2px;
+    text-align: Left;
+}
+
+
+
